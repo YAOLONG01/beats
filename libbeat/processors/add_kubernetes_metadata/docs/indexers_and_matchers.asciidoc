@@ -125,7 +125,7 @@ processors:
       - pod_uid:
     matchers:
       - logs_path:
-          logs_path: '/var/lib/kubelet/pods'
+          logs_path: '/var/lib/kubelet/pods/'
           resource_type: 'pod'
 -------------------------------------------------------------------------------
 endif::has_kubernetes_logs_path_matcher[]
